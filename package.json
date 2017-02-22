@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-ccmtpostinfo",
+  "version": "0.0.1",
+  "description": "get post info from restful api of nodebb plugin",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo"
+  },
+  "keywords": [
+    "ccmt",
+    "nodebb"
+  ],
+  "author": {
+    "name": "littlestone",
+    "email": "ccmt.supersu@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  }
+}
