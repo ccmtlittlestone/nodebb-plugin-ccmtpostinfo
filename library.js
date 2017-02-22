@@ -13,7 +13,7 @@ plugin.init = function(params, callback) {
 
 	router.get('/admin/plugins/ccmtpostinfo', hostMiddleware.admin.buildHeader, controllers.renderAdminPage);
 	router.get('/api/admin/plugins/ccmtpostinfo', controllers.renderAdminPage);
-	// router.get('/api/plugins/ccmtpostinfo/categories', controllers.categoriesPage);
+	router.get('/api/plugins/ccmtpostinfo/categories', controllers.categoriesPage);
 	router.get('/api/plugins/ccmtpostinfo', controllers.renderPage);
 
 	callback();
