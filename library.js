@@ -13,7 +13,7 @@ plugin.init = function(params, callback) {
 	var allowOrigin=["http://localhost:4567","http://www.supersu.com","http://su.phyer.click"];
 	router.all('/*', function(req, res, next) {
 		console.log("origin:",req.headers.origin);
-		if(allowOrigin.includes(req.headers.origin) || typeof(req.headers.origin)=="undefined"){
+		if(allowOrigin.includes(req.headers.origin)){
 			res.header("Access-Control-Allow-Origin", req.headers.origin);
 			res.header("Access-Control-Allow-Headers", "X-Requested-With");
 			next();
