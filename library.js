@@ -14,6 +14,7 @@ plugin.init = function(params, callback) {
 	router.all('/*', function(req, res, next) {
 		console.log("origin:",req.headers.origin);
 		if(!allowOrigin.includes(req.headers.origin)){
+			console.log("not allow");
 			return;
 		}else{
 			res.header("Access-Control-Allow-Origin", req.headers.origin);
