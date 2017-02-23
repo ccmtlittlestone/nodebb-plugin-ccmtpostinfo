@@ -15,9 +15,10 @@ plugin.init = function(params, callback) {
 		console.log("origin:",req.headers.origin);
 		if(!allowOrigin.includes(req.headers.origin)){
 			return;
+		}else{
+			res.header("Access-Control-Allow-Origin", req.headers.origin);
+			res.header("Access-Control-Allow-Headers", "X-Requested-With");
 		}
-		res.header("Access-Control-Allow-Origin", req.headers.origin);
-		res.header("Access-Control-Allow-Headers", "X-Requested-With");
 		next();
 	});
 
