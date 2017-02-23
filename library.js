@@ -1,5 +1,5 @@
 "use strict";
-var controllers = require('./lib/controllers');
+var controllers = require('./lib/controllers'),
 
 plugin = {};
 
@@ -12,7 +12,7 @@ plugin.init = function(params, callback) {
 	// Just add the buildHeader middleware to your route and NodeBB will take care of everything for you.
 
 	router.all('/*', function(req, res, next) {
-		console.log("origin:", req.headers.origin);
+		console.log("origin:",req.headers.origin);
 		res.header("Access-Control-Allow-Origin", "*");
 		res.header("Access-Control-Allow-Headers", "X-Requested-With");
 		next();
