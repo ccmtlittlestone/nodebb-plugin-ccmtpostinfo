@@ -15,11 +15,12 @@ plugin.init = function(params, callback) {
 		console.log("origin:",req.headers.origin);
 		if(!allowOrigin.includes(req.headers.origin)){
 			console.log("not allow");
+			next();
 		}else{
 			res.header("Access-Control-Allow-Origin", req.headers.origin);
 			res.header("Access-Control-Allow-Headers", "X-Requested-With");
+			next();
 		}
-		next();
 	});
 
 	router.get('/api/plugins/ccmtpostinfo/getpost/:pid', controllers.getPost);
