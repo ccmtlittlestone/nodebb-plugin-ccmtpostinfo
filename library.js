@@ -1,5 +1,5 @@
 "use strict";
-var controllers = require('./lib/controllers'),
+var controllers = require('./lib/controllers');
 
 plugin = {};
 
