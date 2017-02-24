@@ -6,7 +6,7 @@ define('admin/plugins/ccmtpostinfo', ['settings'], function(Settings) {
 	var ACP = {};
 
 	ACP.init = function() {
-		Settings.load('ccmtpostinfo', $('.ccmtpostinfo-settings'));
+		Settings.load('ccmtpostinfo', $('.ccmtpostinfo-origins'));
 
 		$('#save').on('click', function() {
 			Settings.save('ccmtpostinfo', $('.ccmtpostinfo-settings'), function() {

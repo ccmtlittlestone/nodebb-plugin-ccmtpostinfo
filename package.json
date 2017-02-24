@@ -1,26 +1,87 @@
 {
-  "name": "nodebb-plugin-ccmtpostinfo",
-  "version": "0.0.1",
-  "description": "get post info from restful api of nodebb plugin",
-  "main": "library.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo"
-  },
-  "keywords": [
-    "ccmt",
-    "nodebb"
+  "_args": [
+    [
+      {
+        "raw": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+        "spec": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+          "sshUrl": "git+ssh://git@github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+          "httpsUrl": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+          "gitUrl": "git://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+          "shortcut": "github:ccmtlittlestone/nodebb-plugin-ccmtpostinfo",
+          "directUrl": "https://raw.githubusercontent.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo/master/package.json"
+        }
+      },
+      "/home/zhangkun/test/nodebb_ccmt"
+    ]
   ],
+  "_from": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+  "_id": "nodebb-plugin-ccmtpostinfo@0.0.1",
+  "_inCache": true,
+  "_location": "/nodebb-plugin-ccmtpostinfo",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+    "spec": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+      "sshUrl": "git+ssh://git@github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+      "httpsUrl": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+      "gitUrl": "git://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+      "shortcut": "github:ccmtlittlestone/nodebb-plugin-ccmtpostinfo",
+      "directUrl": "https://raw.githubusercontent.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git#750c602ce0cd4b23c5ce99ea497a471776a36a6b",
+  "_shasum": "b1a4c19bced448e948e14431bdcb0f6f7e4d1a0c",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git",
+  "_where": "/home/zhangkun/test/nodebb_ccmt",
   "author": {
     "name": "littlestone",
     "email": "ccmt.supersu@gmail.com"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo/issues"
   },
-  "readmeFilename": "README.md",
+  "dependencies": {},
+  "description": "get post info from restful api of nodebb plugin",
+  "devDependencies": {},
+  "gitHead": "750c602ce0cd4b23c5ce99ea497a471776a36a6b",
+  "homepage": "https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo#readme",
+  "keywords": [
+    "ccmt",
+    "nodebb"
+  ],
+  "license": "MIT",
+  "main": "library.js",
+  "name": "nodebb-plugin-ccmtpostinfo",
   "nbbpm": {
     "compatibility": "^1.0.0"
-  }
+  },
+  "optionalDependencies": {},
+  "readme": "master\nasd\n# ccmtpostinfo Plugin for NodeBB\n\nA starter kit for quickly creating NodeBB plugins. Comes with a pre-setup LESS file, server side JS script with an `action:app.load` hook, and a client-side script. Most plugins need at least one of the above, so this ought to save you some time. For a full list of hooks have a look at our [wiki page](https://github.com/NodeBB/NodeBB/wiki/Hooks), and for more information about creating plugins please visit our [documentation portal](https://docs.nodebb.org/).\n\nFork this or copy it, and using your favourite text editor find and replace all instances of `nodebb-plugin-ccmtpostinfo` with `nodebb-plugin-your-plugins-name`. Change the author's name in the LICENSE and package.json files.\n\nOnce you're done don't forget to publish it on NPM, and make a thread about it [here](https://docs.nodebb.org/en/latest/plugins/hooks.html).\n\n\n## Hello World\n\nReally simple, just edit `static/lib/main.js` and paste in `console.log('hello world');`, and that's it!\n\n## Installation\n\n    npm install nodebb-plugin-ccmtpostinfo\n\n## Screenshots\n\nDon't forget to add screenshots!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccmtlittlestone/nodebb-plugin-ccmtpostinfo.git"
+  },
+  "version": "0.0.1"
 }
