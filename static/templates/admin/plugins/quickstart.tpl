@@ -3,16 +3,16 @@
 		<div class="col-sm-2 col-xs-12 settings-header">General</div>
 		<div class="col-sm-10 col-xs-12">
 			<p class="lead">
-				把要允许访问的origin地址写在下面,每个用“，”分割，每个类似"http://www.abc.com"或"https://localhost:4567"等:
+				Adjust these settings. You can then retrieve these settings in code via:
+				<code>meta.settings.get('ccmtpostinfo');</code>
 			</p>
 			<div class="form-group">
-				<label for="origins">origins</label>
-				<input type="textarea" id="origins" name="origins" title="origins" class="form-control" placeholder="">
+				<label for="setting-1">Setting 1</label>
+				<input type="text" id="setting-1" name="setting-1" title="Setting 1" class="form-control" placeholder="Setting 1">
 			</div>
-
 			<div class="form-group">
-				<label for="onlyxhr">是否只允许xhr请求</label>
-				<input type="checkbox" id="onlyxhr" name="onlyxhr" title="是否只允许xhr请求"  class="form-control" >
+				<label for="setting-2">Setting 2</label>
+				<input type="text" id="setting-2" name="setting-2" title="Setting 2" class="form-control" placeholder="Setting 2">
 			</div>
 		</div>
 	</div>
