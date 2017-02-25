@@ -6,8 +6,13 @@
 				把要允许访问的origin地址写在下面,每个用“，”分割，每个类似"http://www.abc.com"或"https://localhost:4567"等:
 			</p>
 			<div class="form-group">
-				<label for="origins">Setting 1</label>
+				<label for="origins">origins</label>
 				<input type="textarea" id="origins" name="origins" title="origins" class="form-control" placeholder="">
+			</div>
+
+			<div class="form-group">
+				<label for="onlyxhr">是否只允许xhr请求</label>
+				<input type="checkbox" id="onlyxhr" name="onlyxhr" title="是否只允许xhr请求"  class="form-control" >
 			</div>
 		</div>
 	</div>
